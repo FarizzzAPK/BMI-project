@@ -16,10 +16,25 @@ function calculateBMI() {
     document.getElementById("bmiValue").textContent = bmi;
 
     let status = "";
-    if (bmi < 18.5) status = "Underweight, انت كدا هتطير في الهواء يسطا";
-    else if (bmi < 25) status = "Normal Weight, انت اصلي وتمام التمام";
-    else if (bmi < 30) status = "Overweight, بص الجيم مش للمفركشين بس";
-    else status = "Obese,يا دبابة انت محتاج حزام امان";
+    let bgColor = "";
+    if (bmi < 18.5) {
+        status = "Underweight, انت كدا هتطير في الهواء يسطا";
+        bgColor = "#e85c5cff"; 
+    }
+    else if (bmi < 25) {
+        status = "Normal Weight, انت اصلي وتمام التمام";
+        bgColor = "#009900";
+    }
+    else if (bmi < 30) {
+        status = "Overweight, بص الجيم مش للمفركشين بس";
+        bgColor = "#e85c5cff";
+    }
+    else {
+        status = "Obese,يا دبابة انت محتاج حزام امان";
+        bgColor = "#ff0000";
+    }
 
     document.getElementById("bmiStatus").textContent = status;
+    document.body.style.backgroundColor = bgColor;
+
 }
