@@ -61,3 +61,31 @@ input {
     text-align: center;
     border-radius: 10px;
 }
+#bmiValue {
+    font-size: 40px;
+    color: #27ae60;
+}
+
+.scale {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.categories .cat {
+    padding: 12px;
+    border: 1px solid #eee;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.categories .cat.normal {
+    background: #e8f9ef;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 13px;
+}
