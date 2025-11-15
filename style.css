@@ -42,3 +42,22 @@ input {
     border: 1px solid #ddd;
     border-radius: 6px;
 }
+.calc-btn {
+    width: 100%;
+    padding: 12px;
+    background: #2ecc71;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.result-box {
+    background: #f8fdf9;
+    border: 1px solid #d8f3e0;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
