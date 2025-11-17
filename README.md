@@ -1,1 +1,1 @@
-Our Official BMI website => https://lighthearted-cendol-4afafa.netlify.app/
+Our Official BMI website => https://691baea72e9836f474655a1e--mybmic.netlify.app/
